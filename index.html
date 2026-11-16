@@ -68,25 +68,21 @@
       position: fixed;
       inset: 0;
       z-index: 0;
-      display: grid;
-      place-items: center;
       pointer-events: none;
     }
 
     .page-bg img {
-      width: min(68vw, 64svh);
-      height: auto;
-      max-block-size: 72svh;
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
       opacity: 0.18;
       object-fit: contain;
-      transform: translateY(-7svh);
       user-select: none;
     }
 
     @media (max-width: 36rem) {
       .page-bg img {
-        width: min(62vw, 38svh);
-        transform: none;
         opacity: 0.14;
       }
     }
@@ -566,7 +562,7 @@
 </head>
 <body>
   <div class="page-bg" aria-hidden="true">
-    <img src="logo-marca.svg" alt="" width="150" height="150">
+    <img src="logo-marca.svg" alt="">
   </div>
   <a class="skip-link" href="#titulo-principal">Ir al contenido</a>
   <div class="banner">Borrador · bio de Instagram pendiente</div>
