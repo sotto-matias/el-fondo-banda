@@ -154,6 +154,19 @@
 
     .brand:hover { color: var(--accent-soft); }
 
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .brand img {
+      display: block;
+      inline-size: 44px;
+      block-size: 44px;
+      border-radius: 6px;
+    }
+
     .nav-list {
       display: flex;
       flex-wrap: wrap;
@@ -429,7 +442,7 @@
   <div class="banner">Borrador · bio de Instagram pendiente</div>
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="#inicio">El Fondo</a>
+      <a class="brand" href="#inicio"><img src="logo.png" alt="" width="44" height="44">El Fondo</a>
       <nav aria-label="Principal">
         <ul class="nav-list" role="list">
           <li><a href="#inicio">Inicio</a></li>
