@@ -13,6 +13,7 @@ Ruta del archivo: `/workspace/entregables/el-fondo-banda/index.html`
 ## Qué se encontró
 
 - Instagram oficial: [https://www.instagram.com/elfondobanda/](https://www.instagram.com/elfondobanda/)
+- Facebook oficial, confirmado por Matías: [https://www.facebook.com/profile.php?id=100077254008204](https://www.facebook.com/profile.php?id=100077254008204)
 - YouTube oficial, confirmado porque el enlace salió del Instagram de @elfondobanda:
   - Canal: **El Fondo Oficial**
   - URL: [https://www.youtube.com/@elfondooficial3939](https://www.youtube.com/@elfondooficial3939)
