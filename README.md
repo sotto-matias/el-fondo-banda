@@ -4,11 +4,13 @@ Landing de una sola página para la banda **El Fondo Banda** (@elfondobanda). Es
 
 ## Cómo abrir
 
-1. Abrí el archivo `index.html` en el navegador (doble clic, o arrastralo a una ventana de Chrome o Edge).
-2. No hace falta instalar nada ni levantar un servidor. El archivo es autónomo.
-3. Las tipografías cargan desde Google Fonts si hay conexión. Sin red, el sitio usa las sans-serif del sistema.
+Vista en vivo, para ver el sitio mientras se edita `index.html` (se recarga al guardar):
 
-Ruta del archivo: `/workspace/entregables/el-fondo-banda/index.html`
+1. Una vez: `npm install`
+2. Cada vez que trabajes: `npm run dev`
+3. Abrí la URL que imprime Vite, por defecto [http://127.0.0.1:5173](http://127.0.0.1:5173)
+
+El archivo sigue siendo autónomo: también se puede abrir con doble clic en el navegador. Las tipografías cargan desde Google Fonts si hay conexión. Sin red, el sitio usa las sans-serif del sistema.
 
 ## Qué se encontró
 

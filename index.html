@@ -66,22 +66,29 @@
 
     .page-bg {
       position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      height: 100lvh;
-      min-height: 100dvh;
+      inset: 0;
       z-index: 0;
+      display: grid;
+      place-items: center;
       pointer-events: none;
-      background-image: url("logo.png");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: min(80vw, 70vh);
-      opacity: 0.16;
-      image-rendering: auto;
+    }
+
+    .page-bg img {
+      width: min(68vw, 64svh);
+      height: auto;
+      max-block-size: 72svh;
+      opacity: 0.18;
+      object-fit: contain;
+      transform: translateY(-7svh);
+      user-select: none;
+    }
+
+    @media (max-width: 36rem) {
+      .page-bg img {
+        width: min(62vw, 38svh);
+        transform: none;
+        opacity: 0.14;
+      }
     }
 
     .banner,
@@ -558,7 +565,9 @@
   </style>
 </head>
 <body>
-  <div class="page-bg" aria-hidden="true"></div>
+  <div class="page-bg" aria-hidden="true">
+    <img src="logo.svg" alt="" width="150" height="150">
+  </div>
   <a class="skip-link" href="#titulo-principal">Ir al contenido</a>
   <div class="banner">Borrador · bio de Instagram pendiente</div>
   <header class="site-header">
